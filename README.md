@@ -28,45 +28,62 @@ However, the full version only works with higher-end J2ME-enabled phones (e.g. N
 
 This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones. 
 
-# Source Code Release
+## Works for Screen Resolutions
+* 176x208*
+* 176x220*
+* 240x320
+* 240x400
+* 240x432
+* 352x416
+* 640x360
+* 640x480
+* 800x480
+* 480x800
+* 480x854
+    
+(*) LITE only
+
+## Source Code Release
 After the Puyo Pop Fever Re:Chained Ver. 2.00 Final Release and Puyo Pop Fever Re:Chained LITE Ver. 1.42 is released, I will release the source code here.
 
 Coming Soon!
 
-# Download
-In order to download the game, go to the [Release](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/tree/main/Release) folder.
-
-# Release Changelogs
+## Release Changelogs & Download
 *Latest version:*
 
-* 10/04/2022: **Ver. 2.00 (Public Beta Release)**
+* 10/04/2022: **Ver. 2.00 (Public Beta Release)** - [240x320 (WAV)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/blob/main/Release/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_WAV.jar) / [240x320 (AMR)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/blob/main/Release/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_AMR.jar)
     * New Town Map / Stage Select System.
     * New Menu / In-Game Graphics.
     * Variable Puyo Skins (Available in Gummy, Aqua (Default), Retro, and Fever) (It can be changed in settings).
     * Sound Effects and English/Japanese Voices (It can be changed in settings).
     * Major bug fixes.
-* 10/04/2022: **Ver. 1.40 (LITE)**
+* 10/13/2022: **Ver. 1.41 (LITE)** - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/blob/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/blob/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_240.jar)
+    * Added 176x220 version
+    * Some manzai dialog fixes.
+    * Replaced BGM sounds to work on phones with 32-poly synth.
+    * Bug fixes.
+
+*Old versions:*
+
+* 10/04/2022: Ver. 1.40 (LITE) - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/blob/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.40.jar)
     * Added new Main Menu background.
     * Added new softkey button sprite.
     * Retro Puyo skin is now replaced with Aqua Puyo skin.
     * Fixed All Clear / Fever / Nuisance Puyo drop speed.
     * QWERTY keyboard support.
     * Bug fixes.
-
-*Old versions:*
-
-* 05/25/2022: Ver. 1.21
+* 05/25/2022: Ver. 1.21 - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/blob/main/Release/Puyo_Pop_Fever_ReChained_1.21.jar)
     * Main Menu and In-Game GUI improvements from *Puyo Puyo Fever 2*.
     * Magic School Classroom background field improvement from *Puyo Puyo Fever 2*.
     * Fixed graphical glitches with puyo skins on CPU.
-* 05/22/2022: Ver. 1.10
+* 05/22/2022: Ver. 1.10 - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/blob/main/Release/Puyo_Pop_Fever_ReChained_1.10.jar)
     * New character sprites from PPQ and PPT2!
     * New title screen from Puyo Puyo Fever Habanero with PPT2 Amitie!
     * Some bug fixes
-* 05/14/2022: Ver. 1.00
+* 05/14/2022: Ver. 1.00 - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/blob/main/Release/Puyo_Pop_Fever_ReChained_1.00.jar)
     * Initial release
 
-# Credits
+## Credits
 Project Leader - [Realtimeless](https://github.com/Realtimeless785)
 
 Custom Gummy Puyo Skin - Aburtos
