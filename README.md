@@ -5,6 +5,8 @@
 
 This mod includes 2 versions, the **Full** version and the low-end or stripped down version called the **LITE** version. The Full version bundled with 2 variants with the audio type, WAV and AMR. The AMR variant supports for most devices, but it has lower-quality SFX, while the WAV variant supports for some devices with higher-quality SFX (11025 Hz) and lower latency (Depends on the phone's CPU).
 
+![image](https://user-images.githubusercontent.com/117650736/200527911-4589e93b-df05-4a54-8ab1-98325054b2c1.png)
+
 **The Full version includes major improvements and implementations:**
 * New Town Map / Stage Select System,
 * New Menu / In-Game Graphics,
@@ -15,6 +17,8 @@ This mod includes 2 versions, the **Full** version and the low-end or stripped d
 * Major bug fixes.
 
 However, the full version only works with higher-end J2ME-enabled phones (e.g. Nokia Series 40 v6, Nokia/SE Symbian, Sony Ericsson, Samsung, LG) and most J2ME emulators (e.g J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 1.0.3 mod). This version does NOT compatible with lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones. 
+
+![image](https://user-images.githubusercontent.com/117650736/200531238-db951cf2-ff27-40c3-9784-d0cb3701167c.png)
 
 **The LITE version lacks some features:**
 * No Town Map / Stage Select System,
