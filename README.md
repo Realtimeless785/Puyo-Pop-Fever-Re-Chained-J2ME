@@ -1,4 +1,4 @@
-# Puyo Pop Fever Re:Chained
+# Puyo Pop Fever Re:Chained (Java ME / J2ME)
 ![image](https://user-images.githubusercontent.com/117650736/200515284-f211b9f1-b663-485d-8ee9-482bc131e9a5.png)
 
 **Puyo Pop Fever Re:Chained** is a modified version of the Puyo Puyo Fever DX mobile game with major improvements and implementations. This mod will give you a *Puyo Puyo Fever 2*-like experience with the original Puyo Puyo Fever storylines.
