@@ -33,6 +33,9 @@ After the Puyo Pop Fever Re:Chained Ver. 2.00 Final Release and Puyo Pop Fever R
 
 Coming Soon!
 
+# Download
+In order to download the game, go to the [Release](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/tree/main/Release) folder.
+
 # Release Changelogs
 *Latest version:*
 
