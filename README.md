@@ -1,13 +1,13 @@
 # Puyo Pop Fever Re:Chained (Java ME / J2ME)
 ![image](https://user-images.githubusercontent.com/117650736/200515284-f211b9f1-b663-485d-8ee9-482bc131e9a5.png)
 
-**Puyo Pop Fever Re:Chained** is a modified version of the Puyo Puyo Fever DX mobile game with major improvements and implementations. This mod will give you a *Puyo Puyo Fever 2*-like experience with the original Puyo Puyo Fever storylines.
+**Puyo Pop Fever Re:Chained** is a modified version of the Puyo Puyo Fever DX (Chinese ForceGen Version) mobile game with many features, major improvements, and implementations. This mod will give you a *Puyo Puyo Fever 2*-like experience with the original Puyo Puyo Fever storylines.
 
 This mod includes 2 versions, the **Full** version and the low-end or stripped down version called the **LITE** version. The Full version bundled with 2 variants with the audio type, WAV and AMR. The AMR variant supports for most devices, but it has lower-quality SFX, while the WAV variant supports for some devices with higher-quality SFX (11025 Hz) and lower latency (Depends on the phone's CPU).
 
 ![image](https://user-images.githubusercontent.com/117650736/200527911-4589e93b-df05-4a54-8ab1-98325054b2c1.png)
 
-**The Full version includes major improvements and implementations:**
+**The Full version includes many features:**
 * New Town Map / Stage Select System,
 * New Menu / In-Game Graphics,
 * Variable Puyo Skins (Available in Gummy, Aqua (Default), Retro, and Fever),
