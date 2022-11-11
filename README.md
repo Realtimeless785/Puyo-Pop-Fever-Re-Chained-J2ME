@@ -35,7 +35,7 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
 * 240x400 (GD580)
 * 240x432 (Aino U10i)
 * 352x416 (N80, N90, E70)
-* 640x360 (N97, N97 mini, C6-00, Vivaz Pro U5i)
+* 640x360 (N97, N97 mini, C6-00, E7-00, Vivaz Pro U5i)
 * 640x480 (E6-00)
 * 800x352 (E90)
 * 800x480
