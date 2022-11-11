@@ -29,14 +29,15 @@ However, the full version only works with higher-end J2ME-enabled phones (e.g. N
 This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones. 
 
 ## Works for Screen Resolutions
-* 176x208*
-* 176x220*
-* 240x320
-* 240x400
-* 240x432
-* 352x416
-* 640x360
-* 640x480
+* 176x208* (3230, 6600, 6630, 6680, 7610, N70, N91, etc.)
+* 176x220* (W302, W700i, W800i, W810i, K700i, K750i, etc.)
+* 240x320 (N73, N82, N95, N96, K800i, W910i, W995, etc.)
+* 240x400 (GD580)
+* 240x432 (Aino U10i)
+* 352x416 (N80, N90, E70)
+* 640x360 (N97, N97 mini, C6-00, Vivaz Pro U5i)
+* 640x480 (E6-00)
+* 800x352 (E90)
 * 800x480
 * 480x800
 * 480x854
