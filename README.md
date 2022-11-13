@@ -45,7 +45,7 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
 (*) LITE only
 
 ## Source Code Release
-After the Puyo Pop Fever Re:Chained Ver. 2.00 Final Release and Puyo Pop Fever Re:Chained LITE Ver. 1.42 is released, I will release the source code here.
+After the Puyo Pop Fever Re:Chained Ver. 2.00 Final Release and Puyo Pop Fever Re:Chained LITE Ver. 1.50 is released, I will release the source code here.
 
 Coming Soon!
 
