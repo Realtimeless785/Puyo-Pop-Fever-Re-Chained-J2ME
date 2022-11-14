@@ -5,7 +5,7 @@
 
 This mod includes 2 versions, the **Full** version and the low-end or stripped down version called the **LITE** version. The Full version bundled with 2 variants with the audio type, WAV and AMR. The AMR variant supports for most devices, but it has lower-quality SFX, while the WAV variant supports for some devices with higher-quality SFX (11025 Hz) and lower latency (Depends on the phone's CPU).
 
-![image](https://user-images.githubusercontent.com/117650736/200527911-4589e93b-df05-4a54-8ab1-98325054b2c1.png)
+![image](https://user-images.githubusercontent.com/117650736/201670477-ae531a31-8575-4641-8a65-8d9e77a0ffb6.png)
 
 **The Full version includes many features:**
 * New Town Map / Stage Select System,
@@ -18,7 +18,7 @@ This mod includes 2 versions, the **Full** version and the low-end or stripped d
 
 However, the full version only works with higher-end J2ME-enabled phones (e.g. Nokia Series 40 v6, Nokia/SE Symbian, Sony Ericsson, Samsung, LG) and most J2ME emulators (e.g J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 1.0.3 mod). This version does NOT compatible with lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones. 
 
-![image](https://user-images.githubusercontent.com/117650736/200531238-db951cf2-ff27-40c3-9784-d0cb3701167c.png)
+![image](https://user-images.githubusercontent.com/117650736/201670650-0ea33b44-a3c8-4970-88c4-acf5127534d2.png)
 
 **The LITE version lacks some features:**
 * No Town Map / Stage Select System,
@@ -44,27 +44,48 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
     
 (*) LITE only
 
-## Source Code Release
-After the Puyo Pop Fever Re:Chained Ver. 2.00 Final Release and Puyo Pop Fever Re:Chained LITE Ver. 1.50 is released, I will release the source code here.
+## Compatibility
+no
 
-Coming Soon!
+## Source Code Release
+The source code for both of the Puyo Pop Fever Re:Chained and Puyo Pop Fever Re:Chained has been released and source codes are now usable.
+
+You can get the [source code](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/tree/main/Source%20Codes) here.
+
+Feel free to mod the game!
 
 ## Release Changelogs & Download
 *Latest version:*
 
-* 10/04/2022: **Ver. 2.00 (Public Beta Release)** - [240x320 (WAV)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_WAV.jar) / [240x320 (AMR)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_AMR.jar)
+* 11/14/2022: **Ver. 2.00 (Final Release)** - [240x320 (WAV)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_2.00_Final_WAV.jar) / [240x320 (AMR)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_2.00_Final_AMR.jar)
+    * New Character Arts from *Puyo Puyo Fever 2*!
+    * New Title Screen Music from *Puyo Puyo Fever 2*!
+    * New "Classic" Puyo Skin!
+    * Added "Enable Sounds" prompt message on boot
+    * Added difficulty and vibration settings
+    * Changeable In-Game Background Themes (Available in Pink, Blue, Orange, and Original Fever).
+    * The Full Version now supports multiple resolutions (352x416 / 400x240 / 640x360 / 800x352) and it will automatically adjust the screen resolution when the screen transition finishes (Switching Screen Orientation)
+    * Major bug fixes.
+* 11/14/2022: **Ver. 1.50 (LITE)** - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.50_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.50_240.jar)
+    * New Character Arts from *Puyo Puyo Fever 2*!
+    * New Title Screen Music from *Puyo Puyo Fever 2*!
+    * Added "Enable Sounds" prompt message on boot
+    * Bug fixes.
+
+*Old versions:*
+
+* 10/04/2022: Ver. 2.00 (Public Beta Release) - [240x320 (WAV)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_WAV.jar) / [240x320 (AMR)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_AMR.jar)
     * New Town Map / Stage Select System.
     * New Menu / In-Game Graphics.
     * Variable Puyo Skins (Available in Gummy, Aqua (Default), Retro, and Fever) (It can be changed in settings).
     * Sound Effects and English/Japanese Voices (It can be changed in settings).
     * Major bug fixes.
-* 10/13/2022: **Ver. 1.41 (LITE)** - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_240.jar)
+
+* 10/13/2022: Ver. 1.41 (LITE) - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_240.jar)
     * Added 176x220 version
     * Some manzai dialog fixes.
     * Replaced BGM sounds to work on phones with 32-poly synth.
     * Bug fixes.
-
-*Old versions:*
 
 * 10/04/2022: Ver. 1.40 (LITE) - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.40.jar)
     * Added new Main Menu background.
