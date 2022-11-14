@@ -13,14 +13,14 @@ This mod includes 2 versions, the **Full** version and the low-end or stripped d
 * Variable In-Game Background Themes (Available in Pink, Blue, Orange, and Original Fever),
 * Variable Puyo Skins (Available in Gummy, Aqua (Default), Retro, Fever, and Classic),
 * Sound Effects and English/Japanese Voices (Changeable in settings),
-* Supports for multiple resolutions and auto-adjust screen resolution (240x320, 352x416, 400x240, 640x360, and more!)
+* Supports for multiple resolutions and auto-adjust screen resolution (240x320, 352x416, 400x240, 640x360, 800x352, and more!)
 
 ![image](https://user-images.githubusercontent.com/117650736/201683796-ecf609fd-a3cd-4d65-81f8-08f800d848b2.png)
 
 * QWERTY keyboard support, and
 * Major bug fixes.
 
-However, the full version only works with higher-end J2ME-enabled phones (e.g. Nokia Series 40 v6, Nokia/SE Symbian, Sony Ericsson, Samsung, LG) and most J2ME emulators (e.g J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 0.9.8 / 1.0.3 / nnmod). This version does NOT compatible with lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones. 
+However, the full version only works with higher-end J2ME-enabled phones with 64KB of maximum heap size (bytecode length) limit (e.g. Nokia Series 40 v6, Nokia/SE Symbian, Sony Ericsson, Samsung, LG) and most J2ME emulators (e.g J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 0.9.8 / 1.0.3 / nnmod). This version does NOT compatible with lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones with 32KB of maximum heap size (bytecode length) limit.
 
 ![image](https://user-images.githubusercontent.com/117650736/201670650-0ea33b44-a3c8-4970-88c4-acf5127534d2.png)
 
@@ -31,9 +31,9 @@ However, the full version only works with higher-end J2ME-enabled phones (e.g. N
 * Only one Puyo skin available is Aqua, and
 * Only one in-game background theme available is Pink.
 
-This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones. 
+This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones with 32KB of maximum heap size (bytecode length) limit. 
 
-## Works for Screen Resolutions
+## Supported Screen Resolutions
 * **Puyo Pop Fever Re:Chained**
     * 240x320 (N73, N82, N95, N96, K800i, W910i, W995, etc.)
     * 240x400 (GD580)
@@ -52,24 +52,27 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
     * 240x320 (2700c, 5310 XM, 6275i, 6280, 6300, 6303i etc.)
     * 240x400 (GD580)
     * 240x432 (Aino U10i)
+    * 320x240 (Nokia C3-00, Nokia X2-01, Nokia X5-01)
     * 352x416 (N80, N90, E70)
     * 400x240 (Samsung Impression)
 
 (*) Automatically changes the softkey buttons layout
 
-## Compatibility
+## Compatibility Issues
 ![image](https://user-images.githubusercontent.com/117650736/201681843-d287845a-cbce-423d-a1cc-60348379d2f7.png)
 
-* When you experience a problem while loading sound effects (e.g. Out of Memory error), you can press both **Left and Right D-Pad** or **4 and 6** key repeatedly at the **SEGA / SONIC TEAM** splash screen until the red **"[!] SFX disabled"** message will appear on the splash screen. This will disable the SFX functionallity and reducing loading times.
+* If you experience a problem while loading sound effects (e.g. Out of Memory error), you can press both **Left and Right D-Pad** or **4 and 6** key repeatedly at the *SEGA / SONIC TEAM* splash screen until the red "**[!] SFX Disabled**" message will appear on the splash screen. This will disable the SFX functionallity and greatly reduces loading times.
 
 (This feature is present for the **FULL** version only).
 
 ## Source Code Release
-The source code for both of the Puyo Pop Fever Re:Chained and Puyo Pop Fever Re:Chained has been released and source codes are now usable.
+The source code for both of the Puyo Pop Fever Re:Chained and Puyo Pop Fever Re:Chained LITE has been released and the source codes are usable for now.
+
+Both of these source codes included with Boilerplate J2ME project build script made by Nokia64.
 
 You can get the [source code](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/tree/main/Source%20Codes) here.
 
-Feel free to mod the game!
+Feel free to mod the game by yourself! :)
 
 ## Release Changelogs & Download
 *Latest version:*
@@ -81,7 +84,7 @@ Feel free to mod the game!
     * Added "Enable Sounds" prompt message on boot.
     * Added difficulty and vibration settings.
     * Changeable In-Game Background Themes (Available in Pink, Blue, Orange, and Original Fever).
-    * The Full Version now supports multiple resolutions (352x416 / 400x240 / 640x360 / 800x352) and it will automatically adjust the screen resolution when the screen wipe transition starts (Switching Screen Orientation).
+    * The Full Version now supports multiple resolutions (352x416 / 400x240 / 640x360 / 800x352 / etc.) and it will automatically adjust the screen resolution when the screen wipe transition starts (Auto-Adjust Screen Resolution).
     * Major bug fixes.
 * 11/14/2022: **Ver. 1.50 (LITE)** - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.50_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.50_240.jar)
     * New Character Arts from *Puyo Puyo Fever 2*!
@@ -97,13 +100,11 @@ Feel free to mod the game!
     * Variable Puyo Skins (Available in Gummy, Aqua (Default), Retro, and Fever) (It can be changed in settings).
     * Sound Effects and English/Japanese Voices (It can be changed in settings).
     * Major bug fixes.
-
 * 10/13/2022: Ver. 1.41 (LITE) - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_240.jar)
     * Added 176x220 version
     * Some manzai dialog fixes.
     * Replaced BGM sounds to work on phones with 32-poly synth.
     * Bug fixes.
-
 * 10/04/2022: Ver. 1.40 (LITE) - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.40.jar)
     * Added new Main Menu background.
     * Added new softkey button sprite.
