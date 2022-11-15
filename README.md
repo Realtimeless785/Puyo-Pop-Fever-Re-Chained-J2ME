@@ -17,7 +17,9 @@ This mod includes 2 versions, the **FULL** version and the low-end or stripped d
 
 ![PuyoFever_ReChained_Ver_2 00_Final_InGameBgThemes](https://user-images.githubusercontent.com/117650736/201873162-7fc3dc1b-4f33-49b5-868a-306aaa8f471f.png)
  
-* **Changeable** Puyo Skins (Available in ![puyopreview_gummy](https://user-images.githubusercontent.com/117650736/201870118-31456182-e8b6-46b3-942b-ac5c0ca63c52.png) **Gummy**, ![puyopreview_aqua](https://user-images.githubusercontent.com/117650736/201870282-2ef3943b-5938-4122-a331-352e152569f2.png) **Aqua** (Default), ![puyopreview_retro](https://user-images.githubusercontent.com/117650736/201870341-aa8fd942-23a2-4cc3-88c4-8777785a3a8a.png) **Retro**, ![puyopreview_fever](https://user-images.githubusercontent.com/117650736/201870372-633a6ffe-89ab-49af-bb4e-630f4ccf4980.png) **Fever**, and ![puyopreview_classic](https://user-images.githubusercontent.com/117650736/201870397-217be90a-4d82-4fb4-8441-4ea942e5fc90.png) **Classic**),
+* **Changeable** Puyo Skins (Available in **Gummy**, **Aqua** (Default), **Retro**, **Fever**, and **Classic**),
+
+![puyopreview_gummy](https://user-images.githubusercontent.com/117650736/201870118-31456182-e8b6-46b3-942b-ac5c0ca63c52.png) ![puyopreview_aqua](https://user-images.githubusercontent.com/117650736/201870282-2ef3943b-5938-4122-a331-352e152569f2.png) ![puyopreview_retro](https://user-images.githubusercontent.com/117650736/201870341-aa8fd942-23a2-4cc3-88c4-8777785a3a8a.png) ![puyopreview_fever](https://user-images.githubusercontent.com/117650736/201870372-633a6ffe-89ab-49af-bb4e-630f4ccf4980.png) ![puyopreview_classic](https://user-images.githubusercontent.com/117650736/201870397-217be90a-4d82-4fb4-8441-4ea942e5fc90.png) 
 
 * Supports for **multiple resolutions** and **Auto-Adjust** screen resolution feature (240x320, 352x416, 400x240, 640x360, 800x352, and more!),
 
