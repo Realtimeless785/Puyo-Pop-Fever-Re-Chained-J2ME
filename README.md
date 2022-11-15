@@ -5,7 +5,7 @@
 
 This mod includes 2 versions, the **FULL** version and the low-end or stripped down version called the **LITE** version. The Full version bundled with 2 variants with the audio type, WAV and AMR. The AMR variant supports for most devices, but it has lower-quality SFX, while the WAV variant supports for some devices with higher-quality SFX (11025 Hz) and lower latency (Depends on the phone's CPU).
 
-## Features
+## Features and Improvements
 ![PuyoFever_ReChained_Ver_2 00_Final_Screenshots](https://user-images.githubusercontent.com/117650736/201877391-5364ce52-541b-4980-b00f-3efdc0d78e52.png)
 
 **The FULL version includes many features:**
@@ -40,6 +40,24 @@ However, the FULL version only works with higher-end J2ME-enabled phones with 64
 * Only one in-game background theme available is Pink.
 
 This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones with 32KB of maximum heap size (bytecode length) limit. 
+
+## In-Game Controls
+* **Phone Keypad:**
+    * Move Puyo Left (←) = Left D-Pad / 4
+    * Move Puyo Right (→) = Right D-Pad / 6
+    * Rotate Puyo Left (↑) = Up D-Pad / 2
+    * Rotate Puyo Right (Select) = OK / 5
+    * Drop Puyo Faster (↓) = Down / 8
+    * Left Softkey = LSK
+    * Right Softkey = RSK
+* **QWERTY Keypad:**
+    * Move Puyo Left (←) = A
+    * Move Puyo Right (→) = D
+    * Rotate Puyo Left (↑) = W / ,
+    * Rotate Puyo Right (Select) = Enter
+    * Drop Puyo Faster (↓ ) = S
+    * Left Softkey = Shift
+    * Right Softkey = Backspace
 
 ## Supported Screen Resolutions
 * **Puyo Pop Fever Re:Chained**
