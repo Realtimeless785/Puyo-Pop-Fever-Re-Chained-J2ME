@@ -72,7 +72,7 @@ Both of these source codes included with Boilerplate J2ME project build script m
 
 You can get the [source code](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/tree/main/Source%20Codes) here.
 
-Feel free to mod the game by yourself! :)
+Feel free to implement some new features or mod the game by yourself! :)
 
 ## Release Changelogs & Download
 *Latest version:*
