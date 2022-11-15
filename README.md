@@ -3,24 +3,30 @@
 
 **Puyo Pop Fever Re:Chained** is a modified version of the Puyo Puyo Fever DX (Chinese ForceGen Version) mobile game with many features, major improvements, and implementations. This mod will give you a *Puyo Puyo Fever 2*-like experience with the original Puyo Puyo Fever storylines.
 
-This mod includes 2 versions, the **Full** version and the low-end or stripped down version called the **LITE** version. The Full version bundled with 2 variants with the audio type, WAV and AMR. The AMR variant supports for most devices, but it has lower-quality SFX, while the WAV variant supports for some devices with higher-quality SFX (11025 Hz) and lower latency (Depends on the phone's CPU).
+This mod includes 2 versions, the **FULL** version and the low-end or stripped down version called the **LITE** version. The Full version bundled with 2 variants with the audio type, WAV and AMR. The AMR variant supports for most devices, but it has lower-quality SFX, while the WAV variant supports for some devices with higher-quality SFX (11025 Hz) and lower latency (Depends on the phone's CPU).
 
 ![image](https://user-images.githubusercontent.com/117650736/201670477-ae531a31-8575-4641-8a65-8d9e77a0ffb6.png)
 
-**The Full version includes many features:**
-* New Town Map / Stage Select System,
-* New Menu / In-Game Graphics,
-* Variable In-Game Background Themes (Available in Pink, Blue, Orange, and Original Fever),
-* Variable Puyo Skins (Available in Gummy, Aqua (Default), Retro, Fever, and Classic),
-* Sound Effects and English/Japanese Voices (Changeable in settings),
-* Supports for multiple resolutions and auto-adjust screen resolution (240x320, 352x416, 400x240, 640x360, 800x352, and more!)
+**The FULL version includes many features:**
+* **NEW** Town Map / Stage Select System,
+* **NEW** Menu / In-Game Graphics,
+* **NEW** Sound Effects and English/Japanese Voices (Changeable in settings),
+* **Changeable** In-Game Background Themes (Available in Pink (Default), Blue, Orange, and Original Fever),
+
+![PuyoFever_ReChained_Ver_2 00_Final_InGameBgThemes](https://user-images.githubusercontent.com/117650736/201873162-7fc3dc1b-4f33-49b5-868a-306aaa8f471f.png)
+
+* **Changeable** Puyo Skins (Available in Gummy, Aqua (Default), Retro, Fever, and Classic),
+
+![puyopreview_gummy](https://user-images.githubusercontent.com/117650736/201870118-31456182-e8b6-46b3-942b-ac5c0ca63c52.png) ![puyopreview_aqua](https://user-images.githubusercontent.com/117650736/201870282-2ef3943b-5938-4122-a331-352e152569f2.png) ![puyopreview_retro](https://user-images.githubusercontent.com/117650736/201870341-aa8fd942-23a2-4cc3-88c4-8777785a3a8a.png) ![puyopreview_fever](https://user-images.githubusercontent.com/117650736/201870372-633a6ffe-89ab-49af-bb4e-630f4ccf4980.png) ![puyopreview_classic](https://user-images.githubusercontent.com/117650736/201870397-217be90a-4d82-4fb4-8441-4ea942e5fc90.png)
+
+* Supports for **multiple resolutions** and **Auto-Adjust** screen resolution feature (240x320, 352x416, 400x240, 640x360, 800x352, and more!),
 
 ![image](https://user-images.githubusercontent.com/117650736/201683796-ecf609fd-a3cd-4d65-81f8-08f800d848b2.png)
 
-* QWERTY keyboard support, and
-* Major bug fixes.
+* **QWERTY** keyboard support, and
+* **Major** bug fixes.
 
-However, the full version only works with higher-end J2ME-enabled phones with 64KB of maximum heap size (bytecode length) limit (e.g. Nokia Series 40 v6, Nokia/SE Symbian, Sony Ericsson, Samsung, LG) and most J2ME emulators (e.g J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 0.9.8 / 1.0.3 / nnmod). This version does NOT compatible with lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones with 32KB of maximum heap size (bytecode length) limit.
+However, the FULL version only works with higher-end J2ME-enabled phones with 64KB of maximum heap size (bytecode length) limit (e.g. Nokia Series 40 v6, Nokia/SE Symbian, Sony Ericsson, Samsung, LG) and most J2ME emulators (e.g J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 0.9.8 / 1.0.3 / nnmod). This version does NOT compatible with lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones with 32KB of maximum heap size (bytecode length) limit.
 
 ![image](https://user-images.githubusercontent.com/117650736/201670650-0ea33b44-a3c8-4970-88c4-acf5127534d2.png)
 
