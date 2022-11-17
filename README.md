@@ -13,11 +13,11 @@ This mod includes 2 versions, the **FULL** version and the low-end or stripped d
 * **NEW** Menu / In-Game Graphics,
 * **NEW** Sound Effects and English/Japanese Voices (Changeable in settings),
 
-* **Changeable** In-Game Background Themes (Available in **Pink** (Default), **Blue**, **Orange**, and **Original Fever**),
+* **Customizable** In-Game Background Themes (Available in **Pink** (Default), **Blue**, **Orange**, and **Original Fever**),
 
 ![PuyoFever_ReChained_Ver_2 00_Final_InGameBgThemes](https://user-images.githubusercontent.com/117650736/201873162-7fc3dc1b-4f33-49b5-868a-306aaa8f471f.png)
  
-* **Changeable** Puyo Skins (Available in **Gummy**, **Aqua** (Default), **Retro**, **Fever**, and **Classic**),
+* **Customizable** Puyo Skins (Available in **Gummy**, **Aqua** (Default), **Retro**, **Fever**, and **Classic**),
 
 ![puyopreview_gummy](https://user-images.githubusercontent.com/117650736/201870118-31456182-e8b6-46b3-942b-ac5c0ca63c52.png) ![puyopreview_aqua](https://user-images.githubusercontent.com/117650736/201870282-2ef3943b-5938-4122-a331-352e152569f2.png) ![puyopreview_retro](https://user-images.githubusercontent.com/117650736/201870341-aa8fd942-23a2-4cc3-88c4-8777785a3a8a.png) ![puyopreview_fever](https://user-images.githubusercontent.com/117650736/201870372-633a6ffe-89ab-49af-bb4e-630f4ccf4980.png) ![puyopreview_classic](https://user-images.githubusercontent.com/117650736/201870397-217be90a-4d82-4fb4-8441-4ea942e5fc90.png) 
 
@@ -109,7 +109,7 @@ Feel free to implement some new features or mod the game by yourself! :)
     * New "Classic" Puyo Skin!
     * Added "Enable Sounds" prompt message on boot.
     * Added difficulty and vibration settings.
-    * Changeable In-Game Background Themes (Available in Pink, Blue, Orange, and Original Fever).
+    * Customizable In-Game Background Themes (Available in Pink, Blue, Orange, and Original Fever).
     * The Full Version now supports multiple resolutions (352x416 / 400x240 / 640x360 / 800x352 / etc.) and it will automatically adjust the screen resolution when the screen wipe transition starts (Auto-Adjust Screen Resolution).
     * Major bug fixes.
 * 11/14/2022: **Ver. 1.50 (LITE)** - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.50_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.50_240.jar)
@@ -123,8 +123,8 @@ Feel free to implement some new features or mod the game by yourself! :)
 * 10/04/2022: Ver. 2.00 (Public Beta Release) - [240x320 (WAV)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_WAV.jar) / [240x320 (AMR)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_AMR.jar)
     * New Town Map / Stage Select System.
     * New Menu / In-Game Graphics.
-    * Variable Puyo Skins (Available in Gummy, Aqua (Default), Retro, and Fever) (It can be changed in settings).
-    * Sound Effects and English/Japanese Voices (It can be changed in settings).
+    * Variable Puyo Skins (Available in Gummy, Aqua (Default), Retro, and Fever) (It can be customized in settings).
+    * Sound Effects and English/Japanese Voices (It can be customized in settings).
     * Major bug fixes.
 * 10/13/2022: Ver. 1.41 (LITE) - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_240.jar)
     * Added 176x220 version
