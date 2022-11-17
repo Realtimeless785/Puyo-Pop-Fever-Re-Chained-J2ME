@@ -124,7 +124,7 @@ Feel free to implement some new features or mod the game by yourself! :)
     * New Town Map / Stage Select System.
     * New Menu / In-Game Graphics.
     * Variable Puyo Skins (Available in Gummy, Aqua (Default), Retro, and Fever) (It can be customized in settings).
-    * Sound Effects and English/Japanese Voices (It can be customized in settings).
+    * Sound Effects and English/Japanese Voices (It can be changed in settings).
     * Major bug fixes.
 * 10/13/2022: Ver. 1.41 (LITE) - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_240.jar)
     * Added 176x220 version
