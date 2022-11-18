@@ -91,6 +91,8 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
 
 (This feature is present for the **FULL** version only).
 
+* The game is *currently* NOT supported on **Motorola** phones, since the left and right softkeys are mapped differently. However, we can fix it (including fixes for the Auto-Adjust screen resolution feature) on a next 2.01 and LITE 1.51 release as well as adding other languages for this game! Coming Soon.
+
 ## Source Code Release
 The source code for both of the Puyo Pop Fever Re:Chained and Puyo Pop Fever Re:Chained LITE has been released and the source codes are usable for now.
 
