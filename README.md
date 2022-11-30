@@ -9,7 +9,7 @@ Other logos: [Puyo Pop Fever Re:Chained LITE](https://user-images.githubusercont
 
 This mod includes 2 versions, the **FULL** version and the low-end or stripped down version called the **LITE** version. The Full version bundled with 2 variants with the audio type, WAV and AMR. The AMR variant supports for most devices, but it has lower-quality SFX, while the WAV variant supports for some devices with higher-quality SFX (11025 Hz) and lower latency (Depends on the phone's CPU).
 
-## Features and Improvements
+## ![Features and Improvements](https://user-images.githubusercontent.com/117650736/204738220-9d333d89-8b30-40aa-b98a-7c4a4777f716.png)
 ![PuyoFever_ReChained_Ver_2 00_Final_Screenshots](https://user-images.githubusercontent.com/117650736/201877391-5364ce52-541b-4980-b00f-3efdc0d78e52.png)
 
 **The FULL version includes many features:**
@@ -45,7 +45,7 @@ However, the FULL version only works with higher-end J2ME-enabled phones with 64
 
 This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones with 32KB of maximum heap size (bytecode length) limit. 
 
-## In-Game Controls
+## ![In-Game Controls](https://user-images.githubusercontent.com/117650736/204738418-261c9f07-673c-43cc-ba3a-2bb410b6df9c.png)
 * **Phone Keypad:**
     * Move Puyo Left (←) = Left D-Pad / 4
     * Move Puyo Right (→) = Right D-Pad / 6
@@ -63,7 +63,7 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
     * Left Softkey = Shift
     * Right Softkey = Backspace
 
-## Supported Screen Resolutions
+## ![Supported Screen Resolutions](https://user-images.githubusercontent.com/117650736/204738489-9e0886b5-2cfc-4dfe-943e-e3001d96a0d8.png)
 * **Puyo Pop Fever Re:Chained**
     * 240x320 (N73, N82, N95, N96, K800i, W910i, W995, etc.)
     * 240x400 (GD580)
@@ -88,7 +88,7 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
 
 (*) Automatically changes the softkey buttons layout
 
-## Compatibility Issues
+## ![Compatibility Issues](https://user-images.githubusercontent.com/117650736/204738545-59d5f4c6-6238-4d85-98f0-8e2042c5405b.png)
 ![image](https://user-images.githubusercontent.com/117650736/201681843-d287845a-cbce-423d-a1cc-60348379d2f7.png)
 
 * If you experience a problem while loading sound effects (e.g. Out of Memory error), you can press both **Left and Right D-Pad** or **4 and 6** key repeatedly at the *SEGA / SONIC TEAM* splash screen until the red "**[!] SFX Disabled**" message will appear on the splash screen. This will disable the SFX functionallity and greatly reduces loading times and memory usage.
@@ -97,7 +97,7 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
 
 * Touchscreen support is *currently* not supported yet.
 
-## Source Code Release
+## ![Source Code Release](https://user-images.githubusercontent.com/117650736/204738594-f9f5ff41-6722-4625-a223-ecefcbbe94c4.png)
 The source code for both of the Puyo Pop Fever Re:Chained and Puyo Pop Fever Re:Chained LITE has been released and the source codes are usable for now.
 
 Both of these source codes included with Boilerplate J2ME project build script made by Nokia64.
@@ -106,7 +106,7 @@ You can get the [source code](https://github.com/Realtimeless785/Puyo-Pop-Fever-
 
 Feel free to implement some new features or mod the game by yourself! :)
 
-## Release Changelogs & Download
+## ![Release Changelogs & Download](https://user-images.githubusercontent.com/117650736/204738631-27190ec7-d59b-41ec-bc55-9ecfe3e980f1.png)
 *Latest version:*
 
 * 11/30/2022: **Ver. 2.01** - English ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Release_AMR.jar)) | Portuguese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_pt_BR_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_pt_BR_Release_AMR.jar)) | Bahasa Indonesia ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_id_ID_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_id_ID_Release_AMR.jar)) | Chinese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_zh_CN_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_zh_CN_Release_AMR.jar))
@@ -166,7 +166,7 @@ Feel free to implement some new features or mod the game by yourself! :)
 * 05/14/2022: Ver. 1.00 - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_1.00.jar)
     * Initial release
 
-## Credits
+## ![Credits](https://user-images.githubusercontent.com/117650736/204738709-0eba7dcc-518e-4bef-a9c5-a83d7224c501.png)
 **Project Leader** - [Realtimeless](https://github.com/Realtimeless785)
 
 Custom **Gummy** Puyo Skin - Aburtos
