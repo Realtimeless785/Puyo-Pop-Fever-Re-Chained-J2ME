@@ -1,5 +1,9 @@
 # Puyo Pop Fever Re:Chained (Java ME / J2ME)
-![image](https://user-images.githubusercontent.com/117650736/200515284-f211b9f1-b663-485d-8ee9-482bc131e9a5.png)
+![Puyo Pop Fever Re:Chained (English) Logo](https://user-images.githubusercontent.com/117650736/200515284-f211b9f1-b663-485d-8ee9-482bc131e9a5.png)
+
+Other logos: [Puyo Pop Fever Re:Chained LITE](https://user-images.githubusercontent.com/117650736/204701467-0ec12a64-3c5c-4c0a-99f1-dbbe2a4da070.png) | 
+[ぷよぷよフィーバーRe:れんさ (Japanese)](https://user-images.githubusercontent.com/117650736/204701425-354a7380-f844-4c3e-8bc6-b8fe8205b8fc.png)
+
 
 **Puyo Pop Fever Re:Chained** is a modified version of the Puyo Puyo Fever DX (Chinese ForceGen Version) mobile game with many features, major improvements, and implementations. This mod will give you a *Puyo Puyo Fever 2*-like experience with the original Puyo Puyo Fever storylines.
 
@@ -55,7 +59,7 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
     * Move Puyo Right (→) = D
     * Rotate Puyo Left (↑) = W / ,
     * Rotate Puyo Right (Select) = Enter
-    * Drop Puyo Faster (↓ ) = S
+    * Drop Puyo Faster (↓) = S
     * Left Softkey = Shift
     * Right Softkey = Backspace
 
@@ -91,8 +95,6 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
 
 (This feature is present for the **FULL** version only).
 
-* The game is *currently* NOT supported on **Motorola** phones, since the left and right softkeys are mapped differently. However, we can fix it (including fixes for the Auto-Adjust screen resolution feature) on a next 2.01 and LITE 1.51 release as well as adding other languages for this game! Coming Soon.
-
 * Touchscreen support is *currently* not supported yet.
 
 ## Source Code Release
@@ -107,7 +109,21 @@ Feel free to implement some new features or mod the game by yourself! :)
 ## Release Changelogs & Download
 *Latest version:*
 
-* 11/14/2022: **Ver. 2.00 (Final Release)** - [WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.00_Final_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.00_Final_AMR.jar)
+* 11/30/2022: **Ver. 2.01** - English ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Release_AMR.jar)) | Portuguese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_pt_BR_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_pt_BR_Release_AMR.jar)) | Bahasa Indonesia ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_id_ID_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_id_ID_Release_AMR.jar)) | Chinese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_zh_CN_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_zh_CN_Release_AMR.jar))
+    * Added other languages: Portuguese, Indonesian, and Chinese. The Japanese language will be added later in this version.
+    * Fixed Auto-Adjust screen resolution feature to make it automatically rescale in every seconds.
+    * Added support for motorola phones.
+    * Minor graphical improvements.
+    * Bug fixes.
+* 11/30/2022: **Ver. 1.51 (LITE)** - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.51_176.jar) | [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.51_240.jar)
+    * Fixed Auto-Adjust screen resolution feature to make it automatically rescale in every seconds (Except for the 176x version).
+    * Added support for motorola phones.
+    * Minor graphical improvements.
+    * Bug fixes.
+
+*Old versions:*
+
+* 11/14/2022: Ver. 2.00 (Final Release) - [WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.00_Final_WAV.jar) | [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.00_Final_AMR.jar)
     * New Character Arts from *Puyo Puyo Fever 2*!
     * New Title Screen Music from *Puyo Puyo Fever 2*!
     * New "Classic" Puyo Skin!
@@ -116,21 +132,18 @@ Feel free to implement some new features or mod the game by yourself! :)
     * Customizable In-Game Background Themes (Available in Pink, Blue, Orange, and Original Fever).
     * The Full Version now supports multiple resolutions (352x416 / 400x240 / 640x360 / 800x352 / etc.) and it will automatically adjust the screen resolution when the screen wipe transition starts (Auto-Adjust Screen Resolution).
     * Major bug fixes.
-* 11/14/2022: **Ver. 1.50 (LITE)** - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.50_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.50_240.jar)
+* 11/14/2022: Ver. 1.50 (LITE) - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.50_176.jar) | [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.50_240.jar)
     * New Character Arts from *Puyo Puyo Fever 2*!
     * New Title Screen Music from *Puyo Puyo Fever 2*!
     * Added "Enable Sounds" prompt message on boot.
     * Bug fixes.
-
-*Old versions:*
-
-* 10/04/2022: Ver. 2.00 (Public Beta Release) - [240x320 (WAV)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_WAV.jar) / [240x320 (AMR)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_AMR.jar)
+* 10/04/2022: Ver. 2.00 (Public Beta Release) - [240x320 (WAV)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_WAV.jar) | [240x320 (AMR)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_AMR.jar)
     * New Town Map / Stage Select System.
     * New Menu / In-Game Graphics.
     * Variable Puyo Skins (Available in Gummy, Aqua (Default), Retro, and Fever) (It can be customized in settings).
     * Sound Effects and English/Japanese Voices (It can be changed in settings).
     * Major bug fixes.
-* 10/13/2022: Ver. 1.41 (LITE) - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.41_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.41_240.jar)
+* 10/13/2022: Ver. 1.41 (LITE) - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.41_176.jar) | [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.41_240.jar)
     * Added 176x220 version
     * Some manzai dialog fixes.
     * Replaced BGM sounds to work on phones with 32-poly synth.
@@ -154,10 +167,14 @@ Feel free to implement some new features or mod the game by yourself! :)
     * Initial release
 
 ## Credits
-Project Leader - [Realtimeless](https://github.com/Realtimeless785)
+**Project Leader** - [Realtimeless](https://github.com/Realtimeless785)
 
-Custom Gummy Puyo Skin - Aburtos
+Custom **Gummy** Puyo Skin - Aburtos
 
-Boilerplate J2ME project build script - Nokia64
+**Portuguese** Translation - Obelisk
+
+**Indonesian** Translation - ItzTools and [Realtimeless](https://github.com/Realtimeless785)
+
+**Boilerplate J2ME project build** script - Nokia64
 
 **Puyo Pop Fever Re:Chained** development - [Kahvibreak Discord server](https://discord.gg/8TgbHAG) and [English Puyo Puyo Community (EPPC) Discord server](https://discord.gg/Br4KqbR)
