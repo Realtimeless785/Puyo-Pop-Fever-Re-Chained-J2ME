@@ -174,9 +174,9 @@ Feel free to implement some new features or mod the game by yourself! :)
 
 Custom `Gummy` Puyo Skin - Aburtos
 
-`Portuguese (PT)` translation - Obelisk
+`Portuguese (PT)` translation - magolor and Obelisk
 
-`Indonesian (ID)` translation - ItzTools
+`Indonesian (ID)` translation - ItzTools and [Realtimeless](https://github.com/Realtimeless785)
 
 `Boilerplate J2ME project build` script - Nokia64
 
