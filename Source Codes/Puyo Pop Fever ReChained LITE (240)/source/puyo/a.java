@@ -39,7 +39,7 @@ public final class a extends Canvas implements Runnable {
     private String[][] wakuwakuCourseEndingString = new String[][]{{"Yes! I've got the", "flying cane!"}, {"Congratulations,", "Miss Amitie!"}, {"Oh, Ms. Accord! Here's", "your flying cane back."}, {"Thank you..."}, {"I guess I should", "give you that reward", "for your help."}, {"No,", "not really.", "You don't have to."}, {"I don't? Well if you insist.", "Then no reward it is."}, {"Really? I thought that's", "what you wanted?", "I was wrong about you."}, {"Huh? Well...", "Yeah... Uh-huh...", "But I..."}, {"Come on. It's about", "time we got back to", "school."}, {"Get really real..."}};
     private String[][][] tutorialString = new String[][][]{{{"Good morning.", "Have you got a fever", "for Puyo Pop?"}, {"Let's study", "how to play."}}, {{"Puyo fall down not", "only in twos but as", "many as four at a time."}, {"While you can rotate", "some puyo, the big", "ones change color..."}, {"and can't be turned."}}, {{"When four puyo of the", "same color connect,", "you send a nuisance..."}, {"puyo to your", "opponent."}}, {{"As puyo keep", "disappearing,..."}, {"Chains of nuisance", "puyo are sent to your", "opponent."}}, {{"Don't lose your cool if", "your opponent sends", "you nuisance puyo."}, {"You can negate your", "opponent's nuisance", "puyo with your own."}, {"This is called", "offsetting."}, {"After offsetting,", "Nuisance puyo won't", "fall. Don't give up."}}, {{"When offsetting, the", "fever mode begins..."}, {"when the fever gauge", "gets full."}}, {{"In fever mode, the", "nuisance puyo won't", "fall for a while."}}, {{"What's even better is", "that the chain puyo", "keep dropping one..."}, {"after the other.", "Pretty cool, huh?"}, {"And keep dropping", "no matter what. The", "better you do, the..."}, {"bigger the chain.", "Of course, even in the", "fever mode, you can..."}, {"still make chains or", "send nuisance puyo", "to your opponent."}}, {{"When two middle rows", "pile up, the game is", "over."}}, {{"And that's that.", "Have a good luck!"}}};
     private String[][] menuDescriptionString = new String[][]{{"Single Player vs. COM.", "", ""}, {"Non stop Fever!", "Big Chains or All Clear", "will add to the playtime."}, {"Training course for", "beginners. (3 Stages)", ""}, {"Intermediate course for", "those who have learned", "the rules. (8 Stages)"}, {"Here you can change", "the game settings.", ""}, {"Explanation of Puyo", "Pop Fever rules."}, {"Change the", "sound settings."}, {"View score ranking", "for each mode."}, {"About Puyo Pop Fever.", ""}, {"Return to the", "main menu."}};
-    private String[][] aboutString = new String[][]{{"Puyo Pop Fever", "Re:Chained LITE", "Ver. 1.50 (0000)", "© SEGA", "", "Modded by:", "Realtimeless"}, {"", "Screen Resolution:", "240x320", "Presented by:", "SEGA", "Developed by:", "SONIC TEAM"}, {"", "Thank you", "for playing,", "Puyo Pop Fever", "Re:Chained LITE!", "", "Modded by RTL."}, {"", "If you want to", "support development,", "you can get the source", "code from GitHub and", "implement some new", "features by yourself! :)"}};
+    private String[][] aboutString = new String[][]{{"Puyo Pop Fever", "Re:Chained LITE", "Ver. 1.51 (0000)", "© SEGA", "", "Modded by:", "Realtimeless"}, {"", "Screen Resolution:", "240x320", "Presented by:", "SEGA", "Developed by:", "SONIC TEAM"}, {"", "Thank you", "for playing,", "Puyo Pop Fever", "Re:Chained LITE!", "", "Modded by RTL."}, {"", "If you want to", "support development,", "you can get the source", "code from GitHub and", "implement some new", "features by yourself! :)"}};
     private int puyoMainGUI;
     private int r;
     private int s;
@@ -62,6 +62,7 @@ public final class a extends Canvas implements Runnable {
     private int J;
     private int mainMenuBase;
     private int saveTime = 0;
+    private int refreshTime = 0;
     private int soundOptionMenu;
     private int aboutOptionMenu;
     private int N;
@@ -98,6 +99,7 @@ public final class a extends Canvas implements Runnable {
     private int aq;
     private int displayWidth;
     private int displayHeight;
+    private int currentDisplayWidth;
     private int at;
     private int au;
     private int av;
@@ -388,9 +390,11 @@ public final class a extends Canvas implements Runnable {
     protected final void keyPressed(int var1) {
         switch(var1) {
         case -50:
+        case -21:
         case -6:
             this.ev |= 32;
             return;
+        case -22:
         case -7:
         case 8:
             this.ev |= 64;
@@ -448,9 +452,11 @@ public final class a extends Canvas implements Runnable {
     protected final void keyReleased(int var1) {
         switch(var1) {
         case -50:
+        case -21:
         case -6:
             this.ev &= -33;
             return;
+        case -22:
         case -7:
         case 8:
             this.ev &= -65;
@@ -1010,8 +1016,6 @@ public final class a extends Canvas implements Runnable {
 
     private void m() {
         this.menu = true;
-        this.repaint();
-        this.serviceRepaints();
 
         for(int var1 = 0; var1 < 9; ++var1) {
             this.puyoGraphics[var1 + 16] = null;
@@ -1233,6 +1237,7 @@ public final class a extends Canvas implements Runnable {
 
         this.displayWidth = this.getWidth();
         this.displayHeight = this.getHeight();
+        this.currentDisplayWidth = this.getWidth();
         this.hDW = this.getWidth() >> 1;
         this.hDH = this.getHeight() >> 1;
         this.an = this.hDW - 120;
@@ -3584,6 +3589,28 @@ public final class a extends Canvas implements Runnable {
         var1.setColor(0);
         var1.fillRect(0, this.aq, this.displayWidth, this.displayHeight - this.aq);
         var1.fillRect(0, 0, this.displayWidth, this.menuBaseC);
+
+		if (this.loadedFlag) {
+            this.refreshTime += 50;
+		    if (this.refreshTime >= 1000) {
+                this.currentDisplayWidth = this.getWidth();
+                this.refreshTime = 0;
+		    }
+		}
+		
+		if (this.displayWidth != this.currentDisplayWidth) {
+            this.displayWidth = this.getWidth();
+            this.displayHeight = this.getHeight();
+            this.hDW = this.getWidth() >> 1;
+            this.hDH = this.getHeight() >> 1;
+            this.an = this.hDW - 120;
+            this.ao = this.hDW + 120;
+            this.menuBaseC = this.hDH - 130;
+            this.aq = this.hDH + 130;
+            this.at = this.ak.charWidth('a') << 1;
+            this.au = this.ak.getHeight();
+            this.av = this.hDW - this.at * 9 / 2;
+		}
 
 		if (this.saveFlag) {
             this.saveTime += 50;

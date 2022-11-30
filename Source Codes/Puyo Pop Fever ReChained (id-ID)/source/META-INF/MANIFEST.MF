@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+MIDlet-Vendor: © SEGA, Dimodif. oleh RTL
+MIDlet-Version: 2.01
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: Puyo Pop Fever Re:Chained (ID),\icon.png,puyo.Puyo
+MIDlet-Icon: /icon.png
+MIDlet-Name: Puyo Pop Fever Re:Chained (ID)
+MicroEdition-Profile: MIDP-2.0
+MIDlet-Delete-Confirm: Apakah Anda yakin ingin menghapus Puyo Pop Fever Re:Chained? Semua progress dan peringkat Anda akan hilang dan ini tidak dapat dibatalkan!
+MIDlet-Description: Mod Puyo Puyo Fever DX (J2ME) yang meningkatkan permainan dengan banyak fitur-fitur nya!
+
+

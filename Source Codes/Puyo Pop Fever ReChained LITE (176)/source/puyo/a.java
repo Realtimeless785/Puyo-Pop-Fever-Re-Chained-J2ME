@@ -283,7 +283,7 @@ public final class a extends Canvas implements Runnable {
     private String[][] wakuwakuCourseEndingString = new String[][]{{"Yes! I've got the", "flying cane!"}, {"Congratulations,", "Miss Amitie!"}, {"Oh, Ms. Accord! Here's", "your flying cane back."}, {"Thank you..."}, {"I guess I should", "give you that reward", "for your help."}, {"No,", "not really.", "You don't have to."}, {"I don't? Well if you insist.", "Then no reward it is."}, {"Really? I thought that's", "what you wanted?", "I was wrong about you."}, {"Huh? Well...", "Yeah... Uh-huh...", "But I..."}, {"Come on. It's about", "time we got back to", "school."}, {"Get really real..."}};
     private String[][][] tutorialString = new String[][][]{{{"Good morning.", "Have you got a fever", "for Puyo Pop?"}, {"Let's study", "how to play."}}, {{"Puyo fall down not", "only in twos but as", "many as four at a time."}, {"While you can rotate", "some puyo, the big", "ones change color..."}, {"and can't be turned."}}, {{"When four puyo of the", "same color connect,", "you send a nuisance..."}, {"puyo to your", "opponent."}}, {{"As puyo keep", "disappearing,..."}, {"Chains of nuisance", "puyo are sent to your", "opponent."}}, {{"Don't lose your cool if", "your opponent sends", "you nuisance puyo."}, {"You can negate your", "opponent's nuisance", "puyo with your own."}, {"This is called", "offsetting."}, {"After offsetting,", "Nuisance puyo won't", "fall. Don't give up."}}, {{"When offsetting, the", "fever mode begins..."}, {"when the fever gauge", "gets full."}}, {{"In fever mode, the", "nuisance puyo won't", "fall for a while."}}, {{"What's even better is", "that the chain puyo", "keep dropping one..."}, {"after the other.", "Pretty cool, huh?"}, {"And keep dropping", "no matter what. The", "better you do, the..."}, {"bigger the chain.", "Of course, even in the", "fever mode, you can..."}, {"still make chains or", "send nuisance puyo", "to your opponent."}}, {{"When two middle rows", "pile up, the game is", "over."}, {"And that's that.", "Have a good luck!"}}};
     private String[][] menuDescriptionString = new String[][]{{"Single Player vs. COM.", "", ""}, {"Non stop Fever!", "Big Chains or All Clear", "will add to the playtime."}, {"Here you can change", "the game settings.", ""}, {"This mode is", "unavailable.", "Coming Soon."}, {"Training course for", "beginners. (3 Stages)", ""}, {"Intermediate course for", "those who have learned", "the rules. (8 Stages)"}, {"Explanation of Puyo", "Pop Fever rules."}, {"Change the", "sound settings."}, {"View score ranking", "for each mode."}, {"About Puyo Pop Fever.", ""}};
-    private String[][] aboutString = new String[][]{{"Puyo Pop Fever", "Re:Chained LITE", "Ver. 1.50 (0000)", "© SEGA", "Modded by:", "Realtimeless"}, {"Screen Resolutions:", "176x208 176x220", "Presented by:", "SEGA", "Developed by:", "SONIC TEAM"}, {"Thank you", "for playing,", "Puyo Pop Fever", "Re:Chained LITE!", "", "Modded by RTL."}, {"If you want to", "support development,", "you can get the source", "code from GitHub and", "implement some new", "features by yourself! :)"}};
+    private String[][] aboutString = new String[][]{{"Puyo Pop Fever", "Re:Chained LITE", "Ver. 1.51 (0000)", "© SEGA", "Modded by:", "Realtimeless"}, {"Screen Resolutions:", "176x208 176x220", "Presented by:", "SEGA", "Developed by:", "SONIC TEAM"}, {"Thank you", "for playing,", "Puyo Pop Fever", "Re:Chained LITE!", "", "Modded by RTL."}, {"If you want to", "support development,", "you can get the source", "code from GitHub and", "implement some new", "features by yourself! :)"}};
     private int eh = 0;
     private static final byte[] ei = new byte[]{0, 1, 2, 0, 1, 3, 0, 1, 4};
     private int[] ej = new int[6];
@@ -367,9 +367,11 @@ public final class a extends Canvas implements Runnable {
 
     protected final void keyPressed(int var1) {
         switch(var1) {
+        case -22:
         case -7:
             this.eh |= 64;
             return;
+        case -21:
         case -6:
             this.eh |= 32;
             return;
@@ -414,9 +416,11 @@ public final class a extends Canvas implements Runnable {
 
     protected final void keyReleased(int var1) {
         switch(var1) {
+        case -22:
         case -7:
             this.eh &= -65;
             return;
+        case -21:
         case -6:
             this.eh &= -33;
             return;
