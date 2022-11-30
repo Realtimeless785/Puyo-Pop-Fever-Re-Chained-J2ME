@@ -7,7 +7,7 @@ Other logos: [Puyo Pop Fever Re:Chained LITE](https://user-images.githubusercont
 
 **Puyo Pop Fever Re:Chained** is a modified version of the Puyo Puyo Fever DX (Chinese ForceGen Version) mobile game with many features, major improvements, and implementations. This mod will give you a *Puyo Puyo Fever 2*-like experience with the original Puyo Puyo Fever storylines.
 
-This mod includes 2 versions, the **FULL** version and the low-end or stripped down version called the **LITE** version. The Full version bundled with 2 variants with the audio type, WAV and AMR. The AMR variant supports for most devices, but it has lower-quality SFX, while the WAV variant supports for some devices with higher-quality SFX (11025 Hz) and lower latency (Depends on the phone's CPU).
+This mod includes 2 versions, the **FULL** version and the low-end or stripped down version called the **LITE** version. The FULL version bundled with 2 variants with the SFX audio type, `WAV` and `AMR`. The `AMR` variant supports for most devices, but it has lower-quality SFX, while the `WAV` variant supports for some devices with higher-quality SFX (11025 Hz) and lower latency (Depends on the phone's CPU).
 
 ## ![Features and Improvements](https://user-images.githubusercontent.com/117650736/204738220-9d333d89-8b30-40aa-b98a-7c4a4777f716.png)
 ![PuyoFever_ReChained_Ver_2 00_Final_Screenshots](https://user-images.githubusercontent.com/117650736/201877391-5364ce52-541b-4980-b00f-3efdc0d78e52.png)
@@ -17,22 +17,22 @@ This mod includes 2 versions, the **FULL** version and the low-end or stripped d
 * **NEW** Menu / In-Game Graphics,
 * **NEW** Sound Effects and English/Japanese Voices (Changeable in settings),
 
-* **Customizable** In-Game Background Themes (Available in **Pink** (Default), **Blue**, **Orange**, and **Original Fever**),
+* **Customizable** In-Game Background Themes (Available in `Pink` (Default), `Blue`, `Orange`, and `Original Fever`),
 
 ![PuyoFever_ReChained_Ver_2 00_Final_InGameBgThemes](https://user-images.githubusercontent.com/117650736/201873162-7fc3dc1b-4f33-49b5-868a-306aaa8f471f.png)
  
-* **Customizable** Puyo Skins (Available in **Gummy**, **Aqua** (Default), **Retro**, **Fever**, and **Classic**),
+* **Customizable** Puyo Skins (Available in `Gummy`, `Aqua` (Default), `Retro`, `Fever`, and `Classic`),
 
 ![puyopreview_gummy](https://user-images.githubusercontent.com/117650736/201870118-31456182-e8b6-46b3-942b-ac5c0ca63c52.png) ![puyopreview_aqua](https://user-images.githubusercontent.com/117650736/201870282-2ef3943b-5938-4122-a331-352e152569f2.png) ![puyopreview_retro](https://user-images.githubusercontent.com/117650736/201870341-aa8fd942-23a2-4cc3-88c4-8777785a3a8a.png) ![puyopreview_fever](https://user-images.githubusercontent.com/117650736/201870372-633a6ffe-89ab-49af-bb4e-630f4ccf4980.png) ![puyopreview_classic](https://user-images.githubusercontent.com/117650736/201870397-217be90a-4d82-4fb4-8441-4ea942e5fc90.png) 
 
-* Supports for **multiple resolutions** and **Auto-Adjust** screen resolution feature (240x320, 352x416, 400x240, 640x360, 800x352, and more!),
+* Supports for **multiple resolutions** and **Auto-Adjust** screen resolution feature (`240x320`, `352x416`, `400x240`, `640x360`, `800x352`, and more!),
 
 ![image](https://user-images.githubusercontent.com/117650736/201683796-ecf609fd-a3cd-4d65-81f8-08f800d848b2.png)
 
 * **QWERTY** keyboard support, and
 * **Major** bug fixes.
 
-However, the FULL version only works with higher-end J2ME-enabled phones with 64KB of maximum heap size (bytecode length) limit (e.g. Nokia Series 40 v6, Nokia/SE Symbian, Sony Ericsson, Samsung, LG) and most J2ME emulators (e.g J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 0.9.8 / 1.0.3 / nnmod). This version does NOT compatible with lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones with 32KB of maximum heap size (bytecode length) limit.
+However, the FULL version only works with higher-end J2ME-enabled phones with `64KB` of maximum heap size (bytecode length) limit (e.g. Nokia Series 40 v6, Nokia/SE Symbian, Sony Ericsson, Samsung, LG) and most J2ME emulators (e.g J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 0.9.8 / 1.0.3 / nnmod). This version does NOT compatible with lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones with 32KB of maximum heap size (bytecode length) limit.
 
 ![PuyoFever_ReChained_LITE_Ver_1 50_240x320_Screenshots](https://user-images.githubusercontent.com/117650736/201879385-7613fc36-5c18-46c9-ac9a-bd23361e1a7c.png)
 
@@ -40,62 +40,65 @@ However, the FULL version only works with higher-end J2ME-enabled phones with 64
 * No Town Map / Stage Select System,
 * No Sound Effects and Voices,
 * Simplified Menu,
-* Only one Puyo skin available is Aqua, and
-* Only one in-game background theme available is Pink.
+* Only one Puyo skin available is `Aqua`, and
+* Only one in-game background theme available is `Pink`.
 
-This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones with 32KB of maximum heap size (bytecode length) limit. 
+This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones with `32KB` of maximum heap size (bytecode length) limit. 
 
 ## ![In-Game Controls](https://user-images.githubusercontent.com/117650736/204738418-261c9f07-673c-43cc-ba3a-2bb410b6df9c.png)
 * **Phone Keypad:**
-    * Move Puyo Left (←) = Left D-Pad / 4
-    * Move Puyo Right (→) = Right D-Pad / 6
-    * Rotate Puyo Left (↑) = Up D-Pad / 2
-    * Rotate Puyo Right (Select) = OK / 5
-    * Drop Puyo Faster (↓) = Down / 8
+    * Move Puyo Left (←) = `Left D-Pad` / `4`
+    * Move Puyo Right (→) = `Right D-Pad` / `6`
+    * Rotate Puyo Left (↑) = `Up D-Pad` / `2`
+    * Rotate Puyo Right (Select) = `OK` / `5`
+    * Drop Puyo Faster (↓) = `Down` / `8`
     * Left Softkey = LSK
     * Right Softkey = RSK
 * **QWERTY Keypad:**
-    * Move Puyo Left (←) = A
-    * Move Puyo Right (→) = D
-    * Rotate Puyo Left (↑) = W / ,
-    * Rotate Puyo Right (Select) = Enter
-    * Drop Puyo Faster (↓) = S
-    * Left Softkey = Shift
-    * Right Softkey = Backspace
+    * Move Puyo Left (←) = `A`
+    * Move Puyo Right (→) = `D`
+    * Rotate Puyo Left (↑) = `W` / `,`
+    * Rotate Puyo Right (Select) = `Enter`
+    * Drop Puyo Faster (↓) = `S`
+    * Left Softkey = `Shift`
+    * Right Softkey = `Backspace`
 
 ## ![Supported Screen Resolutions](https://user-images.githubusercontent.com/117650736/204738489-9e0886b5-2cfc-4dfe-943e-e3001d96a0d8.png)
 * **Puyo Pop Fever Re:Chained**
-    * 240x320 (N73, N82, N95, N96, K800i, W910i, W995, etc.)
-    * 240x400 (GD580)
-    * 240x432 (Aino U10i)
-    * 352x416 (N80, N90, E70)
-    * 400x240 (Samsung Impression)
-    * 640x360* (N97, N97 mini, C6-00, E7-00, Vivaz Pro U5i)
-    * 640x480* (E6-00)
-    * 800x352* (E90)
-    * 800x480*
-    * 480x800*
-    * 480x854*
+    * `240x320` (Tested on: Alcatel ED782A | Motorola VE66 | Nokia 6210s/5320 XM/E52/E90/N73/N79/N81/N85/N95 | SE K810i/W20/W508/W890i)
+    * `440x400` (Tested on: LG C395)
+    * `240x432` (Tested on: SE U10i)
+    * `352x416` (Tested on: Nokia E70)
+    * `400x240`
+    * `640x360`* (Tested on: Nokia C6-00/C7-00 | N97)
+    * `640x480`* (Tested on: Nokia E6-00)
+    * `800x352`* (Tested on: Nokia E90)
+    * `800x480`*
+    * `480x800`*
+    * `480x854`*
 * **Puyo Pop Fever Re:Chained LITE**
-    * 176x208 (3230, 6600, 6630, 6680, 7610, N70, N91, etc.)
-    * 176x220 (W302, W700i, W800i, W810i, K700i, K750i, etc.)
-    * 240x320 (2700c, 5310 XM, 6275i, 6280, 6300, 6303i etc.)
-    * 240x400 (GD580)
-    * 240x432 (Aino U10i)
-    * 320x240 (Nokia C3-00, Nokia X2-01, Nokia X5-01)
-    * 352x416 (N80, N90, E70)
-    * 400x240 (Samsung Impression)
+    * `176x208` (Tested on: Nokia 6680/N70)
+    * `176x220` (Tested on: LG B470/C441/LG440G | SE W660i)
+    * `220x176` (Tested on: Alcatel OT-871A)
+    * `240x320` (Tested on: Huawei C6100 | LG CU720/KE970/KF600 | Nokia 2730c/5310 XM/6233/6275i/6300/6350/6500s/7100s/7230s/7610s/C2-01/C2-02 | Samsung GT-S5603/SGH-D830/SGH-U800/SPH-A900)
+    * `240x400` (Tested on: LG GD570)
+    * `240x432` (Tested on: SE U10i)
+    * `320x240` (Tested on: Nokia 200/C3-00/E63/E71/X2-01/Nokia X5-01)
+    * `352x416` (Tested on: N80, E70)
+    * `400x240`
 
 (*) Automatically changes the softkey buttons layout
 
 ## ![Compatibility Issues](https://user-images.githubusercontent.com/117650736/204738545-59d5f4c6-6238-4d85-98f0-8e2042c5405b.png)
 ![image](https://user-images.githubusercontent.com/117650736/201681843-d287845a-cbce-423d-a1cc-60348379d2f7.png)
 
-* If you experience a problem while loading sound effects (e.g. Out of Memory error), you can press both **Left and Right D-Pad** or **4 and 6** key repeatedly at the *SEGA / SONIC TEAM* splash screen until the red "**[!] SFX Disabled**" message will appear on the splash screen. This will disable the SFX functionallity and greatly reduces loading times and memory usage.
+* If you experience a problem while loading sound effects (e.g. Out of Memory error), you can press both `Left` and `Right` D-Pad or `4` and `6` key repeatedly at the *SEGA / SONIC TEAM* splash screen until the red **[!] SFX Disabled** message will appear on the splash screen. This will disable the SFX functionallity and greatly reduces loading times and memory usage.
 
 (This feature is present for the **FULL** version only, starting from Ver. 2.00 (Final Release) and later).
 
-* Touchscreen support is *currently* not supported yet.
+* If the game doesn't work on some phones, use the `Java Adapter for Mobile Expert Edition / JAM EE` adapter tool to make workaround.
+
+* Touchscreen support is *currently* not supported yet. Alternatively, you can use the `Java Adapter for Mobile Expert Edition / JAM EE` adapter tool to add touchscreen support by yourself.
 
 ## ![Source Code Release](https://user-images.githubusercontent.com/117650736/204738594-f9f5ff41-6722-4625-a223-ecefcbbe94c4.png)
 The source code for both of the Puyo Pop Fever Re:Chained and Puyo Pop Fever Re:Chained LITE has been released and the source codes are usable for now.
@@ -169,12 +172,12 @@ Feel free to implement some new features or mod the game by yourself! :)
 ## ![Credits](https://user-images.githubusercontent.com/117650736/204738709-0eba7dcc-518e-4bef-a9c5-a83d7224c501.png)
 **Project Leader** - [Realtimeless](https://github.com/Realtimeless785)
 
-Custom **Gummy** Puyo Skin - Aburtos
+Custom `Gummy` Puyo Skin - Aburtos
 
-**Portuguese** Translation - Obelisk
+`Portuguese (PT)` translation - Obelisk
 
-**Indonesian** Translation - ItzTools and [Realtimeless](https://github.com/Realtimeless785)
+`Indonesian (ID)` translation - ItzTools
 
-**Boilerplate J2ME project build** script - Nokia64
+`Boilerplate J2ME project build` script - Nokia64
 
 **Puyo Pop Fever Re:Chained** development - [Kahvibreak Discord server](https://discord.gg/8TgbHAG) and [English Puyo Puyo Community (EPPC) Discord server](https://discord.gg/Br4KqbR)
