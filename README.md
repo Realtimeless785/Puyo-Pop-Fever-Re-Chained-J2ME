@@ -91,9 +91,9 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
 ## Compatibility Issues
 ![image](https://user-images.githubusercontent.com/117650736/201681843-d287845a-cbce-423d-a1cc-60348379d2f7.png)
 
-* If you experience a problem while loading sound effects (e.g. Out of Memory error), you can press both **Left and Right D-Pad** or **4 and 6** key repeatedly at the *SEGA / SONIC TEAM* splash screen until the red "**[!] SFX Disabled**" message will appear on the splash screen. This will disable the SFX functionallity and greatly reduces loading times.
+* If you experience a problem while loading sound effects (e.g. Out of Memory error), you can press both **Left and Right D-Pad** or **4 and 6** key repeatedly at the *SEGA / SONIC TEAM* splash screen until the red "**[!] SFX Disabled**" message will appear on the splash screen. This will disable the SFX functionallity and greatly reduces loading times and memory usage.
 
-(This feature is present for the **FULL** version only).
+(This feature is present for the **FULL** version only, starting from Ver. 2.00 (Final Release) and later).
 
 * Touchscreen support is *currently* not supported yet.
 
