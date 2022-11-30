@@ -107,7 +107,7 @@ Feel free to implement some new features or mod the game by yourself! :)
 ## Release Changelogs & Download
 *Latest version:*
 
-* 11/14/2022: **Ver. 2.00 (Final Release)** - [WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_2.00_Final_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_2.00_Final_AMR.jar)
+* 11/14/2022: **Ver. 2.00 (Final Release)** - [WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.00_Final_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.00_Final_AMR.jar)
     * New Character Arts from *Puyo Puyo Fever 2*!
     * New Title Screen Music from *Puyo Puyo Fever 2*!
     * New "Classic" Puyo Skin!
@@ -116,7 +116,7 @@ Feel free to implement some new features or mod the game by yourself! :)
     * Customizable In-Game Background Themes (Available in Pink, Blue, Orange, and Original Fever).
     * The Full Version now supports multiple resolutions (352x416 / 400x240 / 640x360 / 800x352 / etc.) and it will automatically adjust the screen resolution when the screen wipe transition starts (Auto-Adjust Screen Resolution).
     * Major bug fixes.
-* 11/14/2022: **Ver. 1.50 (LITE)** - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.50_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.50_240.jar)
+* 11/14/2022: **Ver. 1.50 (LITE)** - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.50_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.50_240.jar)
     * New Character Arts from *Puyo Puyo Fever 2*!
     * New Title Screen Music from *Puyo Puyo Fever 2*!
     * Added "Enable Sounds" prompt message on boot.
@@ -124,33 +124,33 @@ Feel free to implement some new features or mod the game by yourself! :)
 
 *Old versions:*
 
-* 10/04/2022: Ver. 2.00 (Public Beta Release) - [240x320 (WAV)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_WAV.jar) / [240x320 (AMR)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_AMR.jar)
+* 10/04/2022: Ver. 2.00 (Public Beta Release) - [240x320 (WAV)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_WAV.jar) / [240x320 (AMR)](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.00_PublicBeta_AMR.jar)
     * New Town Map / Stage Select System.
     * New Menu / In-Game Graphics.
     * Variable Puyo Skins (Available in Gummy, Aqua (Default), Retro, and Fever) (It can be customized in settings).
     * Sound Effects and English/Japanese Voices (It can be changed in settings).
     * Major bug fixes.
-* 10/13/2022: Ver. 1.41 (LITE) - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.41_240.jar)
+* 10/13/2022: Ver. 1.41 (LITE) - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.41_176.jar) / [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.41_240.jar)
     * Added 176x220 version
     * Some manzai dialog fixes.
     * Replaced BGM sounds to work on phones with 32-poly synth.
     * Bug fixes.
-* 10/04/2022: Ver. 1.40 (LITE) - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_LITE_1.40.jar)
+* 10/04/2022: Ver. 1.40 (LITE) - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.40.jar)
     * Added new Main Menu background.
     * Added new softkey button sprite.
     * Retro Puyo skin is now replaced with Aqua Puyo skin.
     * Fixed All Clear / Fever / Nuisance Puyo drop speed.
     * QWERTY keyboard support.
     * Bug fixes.
-* 05/25/2022: Ver. 1.21 - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_1.21.jar)
+* 05/25/2022: Ver. 1.21 - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_1.21.jar)
     * Main Menu and In-Game GUI improvements from *Puyo Puyo Fever 2*.
     * Magic School Classroom background field improvement from *Puyo Puyo Fever 2*.
     * Fixed graphical glitches with puyo skins on CPU.
-* 05/22/2022: Ver. 1.10 - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_1.10.jar)
+* 05/22/2022: Ver. 1.10 - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_1.10.jar)
     * New character sprites from PPQ and PPT2!
     * New title screen from Puyo Puyo Fever Habanero with PPT2 Amitie!
     * Some bug fixes
-* 05/14/2022: Ver. 1.00 - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Release/Puyo_Pop_Fever_ReChained_1.00.jar)
+* 05/14/2022: Ver. 1.00 - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_1.00.jar)
     * Initial release
 
 ## Credits
