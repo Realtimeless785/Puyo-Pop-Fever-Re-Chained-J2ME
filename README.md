@@ -169,6 +169,18 @@ Feel free to implement some new features or mod the game by yourself! :)
 * 05/14/2022: Ver. 1.00 - [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_1.00.jar)
     * Initial release
 
+*Experimental releases:*
+
+* 11/30/2022: **Ver. 2.01** Debug Build (English) - [WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Debug_WAV.jar)
+    * To enable debug mode, you need to press the `Right Softkey (RSK)` button repeatedly at the *SEGA / SONIC TEAM* splash screen until the **Debug Mode** message will appear on the loading screen for a split second and then displays **verbose** status messages while loading the game data.
+    * In debug mode, you can press the `OK / 5` key at the pause screen to jump straight into the debug menu screen and pressing the `Right Softkey (RSK)` at in-game, you'll instantly get fever mode.
+
+      ![Verbose Loading Messages](https://user-images.githubusercontent.com/117650736/208330007-3ca4b7a6-36cd-4438-9ea6-ce31c67acb4c.png) ![Debug Menu](https://user-images.githubusercontent.com/117650736/208329460-6e5704cc-5622-4c78-999b-732b4a46c843.png) ![Game Menu (Debug)](https://user-images.githubusercontent.com/117650736/208329755-bbdd728a-85e7-4f2a-900f-747f61b190a5.png)
+
+
+
+
+
 ## ![Credits](https://user-images.githubusercontent.com/117650736/204738709-0eba7dcc-518e-4bef-a9c5-a83d7224c501.png)
 **Project Leader** - [Realtimeless](https://github.com/Realtimeless785)
 
