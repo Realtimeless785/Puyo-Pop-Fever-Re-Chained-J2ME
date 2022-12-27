@@ -5,7 +5,7 @@ Other logos: [Puyo Pop Fever Re:Chained LITE](https://user-images.githubusercont
 [ぷよぷよフィーバーRe:れんさ (Japanese)](https://user-images.githubusercontent.com/117650736/204701425-354a7380-f844-4c3e-8bc6-b8fe8205b8fc.png)
 
 
-**Puyo Pop Fever Re:Chained** is a modified version of the Puyo Puyo Fever DX (Chinese ForceGen Version) mobile game with many features, major improvements, and implementations. This mod will give you a *Puyo Puyo Fever 2*-like experience with the original Puyo Puyo Fever storylines.
+**Puyo Pop Fever Re:Chained** is a modified version of the Puyo Puyo Fever DX (J2ME, Chinese ForceGen Version) mobile game with many features, major improvements, and implementations. This mod will give you a *Puyo Puyo Fever 2*-like experience with the original Puyo Puyo Fever storylines.
 
 This mod includes 2 versions, the **FULL** version and the low-end or stripped down version called the **LITE** version. The FULL version bundled with 2 variants with the SFX audio type, `WAV` and `AMR`. The `AMR` variant supports for most devices, but it has lower-quality SFX, while the `WAV` variant supports for some devices with higher-quality SFX (11025 Hz) and lower latency (Depends on the phone's CPU).
 
@@ -32,7 +32,7 @@ This mod includes 2 versions, the **FULL** version and the low-end or stripped d
 * **QWERTY** keyboard support, and
 * **Major** bug fixes.
 
-However, the FULL version only works with higher-end J2ME-enabled phones with `64KB` of maximum heap size (bytecode length) limit (e.g. Nokia Series 40 v6, Nokia/SE Symbian, Sony Ericsson, Samsung, LG) and most J2ME emulators (e.g J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 0.9.8 / 1.0.3 / nnmod). This version does NOT compatible with lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones with 32KB of maximum heap size (bytecode length) limit.
+However, the FULL version only works with higher-end J2ME-enabled phones with more than `64KB` of maximum heap size limit (e.g. Nokia S40v6 with 1GHz CPU, Nokia/SE Symbian, Sony Ericsson, Samsung, LG, Motorola) and most J2ME emulators (e.g FreeJ2ME/ J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 0.9.7 / 0.9.8 / 1.0.3 / nnmod). This version is NOT compatible with lower-end Samsung, LG, Motorola, Nokia S40v3/v4/v5/v6, and other phones with 32KB of maximum heap size limit.
 
 ![PuyoFever_ReChained_LITE_Ver_1 50_240x320_Screenshots](https://user-images.githubusercontent.com/117650736/201879385-7613fc36-5c18-46c9-ac9a-bd23361e1a7c.png)
 
@@ -43,7 +43,7 @@ However, the FULL version only works with higher-end J2ME-enabled phones with `6
 * Only one Puyo skin available is `Aqua`, and
 * Only one in-game background theme available is `Pink`.
 
-This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and other phones with `32KB` of maximum heap size (bytecode length) limit. 
+This version supports most lower-end Samsung, LG, Motorola, Nokia S40v3/v4/v5/v6, and other phones with more than `32KB` of maximum heap size limit. 
 
 ## ![In-Game Controls](https://user-images.githubusercontent.com/117650736/204738418-261c9f07-673c-43cc-ba3a-2bb410b6df9c.png)
 * **Phone Keypad:**
@@ -65,8 +65,8 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
 
 ## ![Supported Screen Resolutions](https://user-images.githubusercontent.com/117650736/204738489-9e0886b5-2cfc-4dfe-943e-e3001d96a0d8.png)
 * **Puyo Pop Fever Re:Chained**
-    * `240x320` (Tested on: Alcatel ED782A | Motorola VE66 | Nokia 6210s/5320 XM/E52/E90/N73/N79/N81/N85/N95 | SE K810i/W20/W508/W890i)
-    * `440x400` (Tested on: LG C395)
+    * `240x320` (Tested on: Alcatel ED782A | Motorola RAZR2 V8/VE66 | Nokia 6210s/5320 XM/E52/E90/N73/N79/N81/N85/N93/N95 | SE K800i/K810i/K850i/W20/W508/W890i)
+    * `240x400` (Tested on: LG C395)
     * `240x432` (Tested on: SE U10i)
     * `352x416` (Tested on: Nokia E70)
     * `400x240`
@@ -77,8 +77,8 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
     * `480x800`*
     * `480x854`*
 * **Puyo Pop Fever Re:Chained LITE**
-    * `176x208` (Tested on: Nokia 6680/N70)
-    * `176x220` (Tested on: LG B470/C441/LG440G | SE W660i)
+    * `176x208` (Tested on: Nokia 3230/6680/N70)
+    * `176x220` (Tested on: LG B470/C441/LG440G | SE W660i/Z550i)
     * `220x176` (Tested on: Alcatel OT-871A)
     * `240x320` (Tested on: Huawei C6100 | LG CU720/KE970/KF600 | Nokia 2730c/5310 XM/6233/6275i/6300/6350/6500s/7100s/7230s/7610s/C2-01/C2-02 | Samsung GT-S5603/SGH-D830/SGH-U800/SPH-A900)
     * `240x400` (Tested on: LG GD570)
@@ -94,7 +94,7 @@ This version supports most lower-end Samsung, LG, Nokia Series 40 v3/v4/v5, and 
 
 * If you experience a problem while loading sound effects (e.g. Out of Memory error), you can press both `Left` and `Right` D-Pad or `4` and `6` key repeatedly at the *SEGA / SONIC TEAM* splash screen until the red **[!] SFX Disabled** message will appear on the splash screen. This will disable the SFX functionallity and greatly reduces loading times and memory usage.
 
-(This feature is present for the **FULL** version only, starting from Ver. 2.00 (Final Release) and later).
+(This feature is present for the **FULL** version only, since Ver. 2.00 Final Release).
 
 * If the game doesn't work on some phones, use the `Java Adapter for Mobile Expert Edition / JAM EE` adapter tool to make workaround.
 
@@ -112,8 +112,9 @@ Feel free to implement some new features or mod the game by yourself! :)
 ## ![Release Changelogs & Download](https://user-images.githubusercontent.com/117650736/204738631-27190ec7-d59b-41ec-bc55-9ecfe3e980f1.png)
 *Latest version:*
 
-* 11/30/2022: **Ver. 2.01** - English ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Release_AMR.jar)) | Portuguese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_pt_BR_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_pt_BR_Release_AMR.jar)) | Bahasa Indonesia ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_id_ID_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_id_ID_Release_AMR.jar)) | Chinese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_zh_CN_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_zh_CN_Release_AMR.jar))
-    * Added other languages: Portuguese, Indonesian, and Chinese. The Japanese language will be added later in this version.
+* 11/30/2022: **Ver. 2.01** - English ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Release_AMR.jar)) | Portuguese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_pt_BR_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_pt_BR_Release_AMR.jar)) | Bahasa Indonesia ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_id_ID_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_id_ID_Release_AMR.jar)) | Chinese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_zh_CN_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_zh_CN_Release_AMR.jar)) | Japanese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_ja_JP_Release_WAV.jar) / [AMR](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_ja_JP_Release_AMR.jar))
+    * **UPDATE 12/27/2022:** Added japanese language in this version, it is recommended to set the font size to 14 on the JP version.
+    * Added other languages: Portuguese, Indonesian, and Chinese.
     * Fixed Auto-Adjust screen resolution feature to make it automatically rescale in every seconds.
     * Added support for motorola phones.
     * Minor graphical improvements.
@@ -171,7 +172,7 @@ Feel free to implement some new features or mod the game by yourself! :)
 
 *Experimental releases:*
 
-* 12/19/2022: **Ver. 2.01** Debug Build - English ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Debug_WAV.jar)) | Japanese, Unfinished ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_ja_JP_Debug_Unfinished.jar))
+* 12/19/2022: **Ver. 2.01** Debug Build - English ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Debug_WAV.jar)) | Japanese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_ja_JP_Debug.jar))
     * To enable debug mode, you need to press the `Right Softkey (RSK)` button repeatedly at the *SEGA / SONIC TEAM* splash screen until the **Debug Mode** message will appear on the loading screen for a split second and then displays **verbose** status messages while loading the game data.
     * In debug mode, you can press the `OK / 5` key at the pause screen to jump straight into the debug menu screen and pressing the `Right Softkey (RSK)` at in-game, you'll instantly get fever mode.
 
@@ -189,6 +190,8 @@ Custom `Gummy` Puyo Skin - Aburtos
 `Portuguese (PT)` translation - magolor and Obelisk
 
 `Indonesian (ID)` translation - ItzTools and [Realtimeless](https://github.com/Realtimeless785)
+
+`Japanese (JP)` translation - ThanhPhuc
 
 `Boilerplate J2ME project build` script - Nokia64
 
