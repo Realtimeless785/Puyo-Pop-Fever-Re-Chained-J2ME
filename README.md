@@ -94,7 +94,7 @@ This version supports most lower-end Samsung, LG, Motorola, Nokia S40v3/v4/v5/v6
 
 * If you experience a problem while loading sound effects (e.g. Out of Memory error), you can press both `Left` and `Right` D-Pad or `4` and `6` key repeatedly at the *SEGA / SONIC TEAM* splash screen until the red **[!] SFX Disabled** message will appear on the splash screen. This will disable the SFX functionallity and greatly reduces loading times and memory usage.
 
-(This feature is present for the **FULL** version only, starting from Ver. 2.00 (Final Release) and later).
+(This feature is present for the **FULL** version only, since Ver. 2.00 Final Release).
 
 * If the game doesn't work on some phones, use the `Java Adapter for Mobile Expert Edition / JAM EE` adapter tool to make workaround.
 
