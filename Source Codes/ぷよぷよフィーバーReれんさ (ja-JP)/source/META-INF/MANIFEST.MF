@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+MIDlet-Vendor: © SEGA, RTL
+MIDlet-Version: 2.01
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: ぷよぷよフィーバーRe:れんさ,\icon.png,puyo.Puyo
+MIDlet-Icon: /icon.png
+MIDlet-Name: ぷよぷよフィーバーRe:れんさ
+MicroEdition-Profile: MIDP-2.0
+
+
