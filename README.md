@@ -32,7 +32,7 @@ This mod includes 2 versions, the **FULL** version and the low-end or stripped d
 * **QWERTY** keyboard support, and
 * **Major** bug fixes.
 
-However, the FULL version only works with higher-end J2ME-enabled phones with more than `64KB` of maximum heap size limit (e.g. Nokia S40v6 with 1GHz CPU, Nokia/SE Symbian, Sony Ericsson, Samsung, LG, Motorola) and most J2ME emulators (e.g FreeJ2ME/ J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 0.9.7 / 0.9.8 / 1.0.3 / nnmod). This version is NOT compatible with lower-end Samsung, LG, Motorola, Nokia S40v3/v4/v5/v6, and other phones with 32KB of maximum heap size limit.
+However, the FULL version only works with higher-end J2ME-enabled phones with more than `8MB` of maximum heap size limit (e.g. Nokia S40v6 with 1GHz CPU, Nokia/SE Symbian, Sony Ericsson, Samsung, LG, Motorola) and most J2ME emulators (e.g FreeJ2ME/ J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 0.9.7 / 0.9.8 / 1.0.3 / nnmod). This version is NOT compatible with lower-end Samsung, LG, Motorola, Nokia S40v3/v4/v5/v6, and other phones with less than 8MB of maximum heap size limit.
 
 ![PuyoFever_ReChained_LITE_Ver_1 50_240x320_Screenshots](https://user-images.githubusercontent.com/117650736/201879385-7613fc36-5c18-46c9-ac9a-bd23361e1a7c.png)
 
@@ -43,7 +43,7 @@ However, the FULL version only works with higher-end J2ME-enabled phones with mo
 * Only one Puyo skin available is `Aqua`, and
 * Only one in-game background theme available is `Pink`.
 
-This version supports most lower-end Samsung, LG, Motorola, Nokia S40v3/v4/v5/v6, and other phones with more than `32KB` of maximum heap size limit. 
+This version supports most lower-end Samsung, LG, Motorola, Nokia S40v3/v4/v5/v6, and other phones with less than `8MB` of maximum heap size limit `(4MB for example)`.
 
 ## ![In-Game Controls](https://user-images.githubusercontent.com/117650736/204738418-261c9f07-673c-43cc-ba3a-2bb410b6df9c.png)
 * **Phone Keypad:**
@@ -65,12 +65,12 @@ This version supports most lower-end Samsung, LG, Motorola, Nokia S40v3/v4/v5/v6
 
 ## ![Supported Screen Resolutions](https://user-images.githubusercontent.com/117650736/204738489-9e0886b5-2cfc-4dfe-943e-e3001d96a0d8.png)
 * **Puyo Pop Fever Re:Chained**
-    * `240x320` (Tested on: Alcatel ED782A | Motorola RAZR2 V8/VE66 | Nokia 6210s/5320 XM/E52/E90/N73/N79/N81/N85/N93/N95 | SE K800i/K810i/K850i/W20/W508/W890i)
+    * `240x320` (Tested on: Alcatel ED782A | Motorola RAZR2 V8/VE66 | Nokia 6210s/5320 XM/E52/E90/N73/N79/N81/N82/N85/N93/N95 | Samsung GT-S5610 (2.01 Debug Build w/ No SFX) | SE C901/K800i/K810i/K850i/W20/W508/W890i)
     * `240x400` (Tested on: LG C395)
     * `240x432` (Tested on: SE U10i)
     * `352x416` (Tested on: Nokia E70)
     * `400x240`
-    * `640x360`* (Tested on: Nokia C6-00/C7-00 | N97)
+    * `640x360`* (Tested on: Nokia C6-00/C7-00/N97/X6-00)
     * `640x480`* (Tested on: Nokia E6-00)
     * `800x352`* (Tested on: Nokia E90)
     * `800x480`*
@@ -78,9 +78,10 @@ This version supports most lower-end Samsung, LG, Motorola, Nokia S40v3/v4/v5/v6
     * `480x854`*
 * **Puyo Pop Fever Re:Chained LITE**
     * `176x208` (Tested on: Nokia 3230/6680/N70)
-    * `176x220` (Tested on: LG B470/C441/LG440G | SE W660i/Z550i)
+    * `176x220` (Tested on: LG B470/C441/LG440G/LG441G/LG500G | SE F305/K630i/W380i/W660i/Z550i / ZTE Z222)
+    * `208x208` (Tested on: Nokia 6230i)
     * `220x176` (Tested on: Alcatel OT-871A)
-    * `240x320` (Tested on: Huawei C6100 | LG CU720/KE970/KF600 | Nokia 2730c/5310 XM/6233/6275i/6300/6350/6500s/7100s/7230s/7610s/C2-01/C2-02 | Samsung GT-S5603/SGH-D830/SGH-U800/SPH-A900)
+    * `240x320` (Tested on: Huawei C6100 | LG CU720/KE970/KF600 | Nokia 2730c/5310 XM/6233/6275i/6280/6300/6350/6500s/7100s/7230s/7373/7390/7610s/C2-01/C2-02 | Samsung GT-S5603/SGH-D830/SGH-U800/SPH-A900 | SE W900i)
     * `240x400` (Tested on: LG GD570)
     * `240x432` (Tested on: SE U10i)
     * `320x240` (Tested on: Nokia 200/C3-00/E63/E71/X2-01/Nokia X5-01)
@@ -92,9 +93,11 @@ This version supports most lower-end Samsung, LG, Motorola, Nokia S40v3/v4/v5/v6
 ## ![Compatibility Issues](https://user-images.githubusercontent.com/117650736/204738545-59d5f4c6-6238-4d85-98f0-8e2042c5405b.png)
 ![image](https://user-images.githubusercontent.com/117650736/201681843-d287845a-cbce-423d-a1cc-60348379d2f7.png)
 
-* If you experience a problem while loading sound effects (e.g. Out of Memory error), you can press both `Left` and `Right` D-Pad or `4` and `6` key repeatedly at the *SEGA / SONIC TEAM* splash screen until the red **[!] SFX Disabled** message will appear on the splash screen. This will disable the SFX functionallity and greatly reduces loading times and memory usage.
+* If you experience a problem while loading sound effects (e.g. Out of Memory error and Game Crashes/Freezes), you can press both `Left` and `Right` D-Pad or `4` and `6` key repeatedly at the *SEGA / SONIC TEAM* splash screen until the red **[!] SFX Disabled** message will appear on the splash screen. This will disable the SFX functionallity and greatly reduces loading times and memory usage.
 
 (This feature is present for the **FULL** version only, since Ver. 2.00 Final Release).
+
+If the problem still persists, you can also get the debug build with no SFX capability and try it on some of your phones that having problems with playing sound effects (*See "Experimental releases"*).
 
 * If the game doesn't work on some phones, use the `Java Adapter for Mobile Expert Edition / JAM EE` adapter tool to make workaround.
 
@@ -116,12 +119,12 @@ Feel free to implement some new features or mod the game by yourself! :)
     * **UPDATE 12/27/2022:** Added japanese language in this version, it is recommended to set the font size to 14 on the JP version.
     * Added other languages: Portuguese, Indonesian, and Chinese.
     * Fixed Auto-Adjust screen resolution feature to make it automatically rescale in every seconds.
-    * Added support for motorola phones.
+    * Added keypad support for motorola phones.
     * Minor graphical improvements.
     * Bug fixes.
 * 11/30/2022: **Ver. 1.51 (LITE)** - [176x220](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.51_176.jar) | [240x320](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_LITE_1.51_240.jar)
     * Fixed Auto-Adjust screen resolution feature to make it automatically rescale in every seconds (Except for the 176x version).
-    * Added support for motorola phones.
+    * Added keypad support for motorola phones.
     * Minor graphical improvements.
     * Bug fixes.
 
@@ -172,7 +175,8 @@ Feel free to implement some new features or mod the game by yourself! :)
 
 *Experimental releases:*
 
-* 12/19/2022: **Ver. 2.01** Debug Build - English ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Debug_WAV.jar)) | Japanese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_ja_JP_Debug.jar))
+* 12/19/2022: **Ver. 2.01** Debug Build - English ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Debug_WAV.jar) / [No SFX](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Debug_NoSFX.jar)) | Japanese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_ja_JP_Debug.jar))
+    * **UPDATE 3/21/2023:** Added debug build with no SFX capability, now you can run the game on some phones without freezing at the title screen!
     * To enable debug mode, you need to press the `Right Softkey (RSK)` button repeatedly at the *SEGA / SONIC TEAM* splash screen until the **Debug Mode** message will appear on the loading screen for a split second and then displays **verbose** status messages while loading the game data.
     * In debug mode, you can press the `OK / 5` key at the pause screen to jump straight into the debug menu screen and pressing the `Right Softkey (RSK)` at in-game, you'll instantly get fever mode.
 
