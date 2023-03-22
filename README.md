@@ -175,7 +175,7 @@ Feel free to implement some new features or mod the game by yourself! :)
 
 *Experimental releases:*
 
-* 12/19/2022: **Ver. 2.01** Debug Build - English ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Debug_WAV.jar) / [No SFX](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Debug_NoSFX.jar)) | Japanese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_ja_JP_Debug.jar))
+* 12/19/2022: **Ver. 2.01** Debug Build - English ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Debug.jar) / [No SFX](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Pop_Fever_ReChained_2.01_en_US_Debug_NoSFX.jar)) | Japanese ([WAV](https://github.com/Realtimeless785/Puyo-Pop-Fever-Re-Chained-J2ME/raw/main/Releases/Puyo_Puyo_Fever_ReChained_2.01_ja_JP_Debug.jar))
     * **UPDATE 3/21/2023:** Added debug build with no SFX capability, now you can run the game on some phones without freezing at the title screen!
     * To enable debug mode, you need to press the `Right Softkey (RSK)` button repeatedly at the *SEGA / SONIC TEAM* splash screen until the **Debug Mode** message will appear on the loading screen for a split second and then displays **verbose** status messages while loading the game data.
     * In debug mode, you can press the `OK / 5` key at the pause screen to jump straight into the debug menu screen and pressing the `Right Softkey (RSK)` at in-game, you'll instantly get fever mode.
