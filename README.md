@@ -5,9 +5,9 @@ Other logos: [Puyo Pop Fever Re:Chained LITE](https://user-images.githubusercont
 [ぷよぷよフィーバーRe:れんさ (Japanese)](https://user-images.githubusercontent.com/117650736/204701425-354a7380-f844-4c3e-8bc6-b8fe8205b8fc.png)
 
 
-**Puyo Pop Fever Re:Chained** is a modified version of the Puyo Puyo Fever DX (J2ME, Chinese ForceGen Version) mobile game with many features, major improvements, and implementations. This mod will give you a *Puyo Puyo Fever 2*-like experience with the original Puyo Puyo Fever storylines.
+**Puyo Pop Fever Re:Chained** is a modified version of the Puyo Puyo Fever DX (J2ME, Chinese ForceGen Version) mobile game with many features, major improvements, and major bug fixes. This mod will give you a *Puyo Puyo Fever 2*-like experience with the original Puyo Puyo Fever storylines.
 
-This mod includes 2 versions, the **FULL** version and the low-end or stripped down version called the **LITE** version. The FULL version bundled with 2 variants with the SFX audio type, `WAV` and `AMR`. The `AMR` variant supports for most devices, but it has lower-quality SFX, while the `WAV` variant supports for some devices with higher-quality SFX (11025 Hz) and lower latency (Depends on the phone's CPU).
+This mod includes 2 versions, the **FULL** version and the low-end or stripped down version called the **LITE** version. The FULL version bundled with 2 variants on the SFX audio type, `WAV` and `AMR`. The `AMR` variant supports for most devices, but it has lower-quality SFX, while the `WAV` variant supports for some devices with higher-quality SFX (11025 Hz) and lower latency (Still, it depends on the phone's CPU).
 
 ## ![Features and Improvements](https://user-images.githubusercontent.com/117650736/204738220-9d333d89-8b30-40aa-b98a-7c4a4777f716.png)
 ![PuyoFever_ReChained_Ver_2 00_Final_Screenshots](https://user-images.githubusercontent.com/117650736/201877391-5364ce52-541b-4980-b00f-3efdc0d78e52.png)
@@ -32,16 +32,16 @@ This mod includes 2 versions, the **FULL** version and the low-end or stripped d
 * **QWERTY** keyboard support, and
 * **Major** bug fixes.
 
-However, the FULL version only works with higher-end J2ME-enabled phones with more than `8MB` of maximum heap size limit (e.g. Nokia S40v6 with 1GHz CPU, Nokia/SE Symbian, Sony Ericsson, Samsung, LG, Motorola) and most J2ME emulators (e.g FreeJ2ME/ J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 0.9.7 / 0.9.8 / 1.0.3 / nnmod). This version is NOT compatible with lower-end Samsung, LG, Motorola, Nokia S40v3/v4/v5/v6, and other phones with less than 8MB of maximum heap size limit.
+However, the FULL version is only designed for higher-end J2ME-enabled phones with more than `8MB` of maximum heap size limit (e.g. Nokia/SE Symbian, Sony Ericsson A100/A200-platform, Samsung, Non-Infineon-based LG phones, Motorola MotoMAGX-platform) and most J2ME emulators (e.g FreeJ2ME / J2ME Loader / JL-Mod, KEmulator Lite 0.9.3 / 0.9.7 / 0.9.8 / 1.0.3 / nnmod). This version does NOT compatible with lower-end Samsung, Infineon-based LG phones, Motorola, Nokia S40v3/v4/v5/v6, and other phones with less than 8MB of maximum heap size limit.
 
 ![PuyoFever_ReChained_LITE_Ver_1 50_240x320_Screenshots](https://user-images.githubusercontent.com/117650736/201879385-7613fc36-5c18-46c9-ac9a-bd23361e1a7c.png)
 
 **The LITE version lacks some features:**
 * No Town Map / Stage Select System,
 * No Sound Effects and Voices,
-* Simplified Menu,
+* Menu has been simplified,
 * Only one Puyo skin available is `Aqua`, and
-* Only one in-game background theme available is `Pink`.
+* in-game background theme available is `Pink`.
 
 This version supports most lower-end Samsung, LG, Motorola, Nokia S40v3/v4/v5/v6, and other phones with less than `8MB` of maximum heap size limit `(4MB for example)`.
 
@@ -190,6 +190,8 @@ Feel free to implement some new features or mod the game by yourself! :)
 **Project Leader** - [Realtimeless](https://github.com/Realtimeless785)
 
 Custom `Gummy` Puyo Skin - Aburtos
+
+Optimized `Puyo Puyo Fever 2` MIDI background musics - Tetriser (a.k.a SONAR Games)
 
 `Portuguese (PT)` translation - magolor and Obelisk
 
